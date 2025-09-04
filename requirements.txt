@@ -1,0 +1,25 @@
+# Windows Error Assistant dependencies
+
+# Windows event log access
+pywin32>=306
+
+# Windows notifications
+winotify>=1.1.0
+
+# HTTP requests
+requests>=2.31.0
+
+# Web server for handling actions
+flask>=2.3.0
+
+# OpenAI client for ChatGPT provider
+openai>=1.40.0
+
+# Process utilities (for UI watcher, etc.)
+psutil>=5.9.0
+
+# GUI (Settings window)
+PySide6>=6.6.0
+
+# Production-ready WSGI server (instead of Flask dev server)
+waitress>=2.1.0
